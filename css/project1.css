@@ -1,0 +1,143 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ddd;
+}
+/* header start */
+.box{
+    height: 112px;
+    background-color: black;
+    display: flex;
+    box-shadow: 3px 0 5px gray;
+}
+.logo{
+    padding: 17px;
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .nav ul{
+    list-style-type: none;
+    margin-top: 13px ;
+}
+.nav ul li{
+    background-color: #262626;
+    text-decoration: none;
+    width: 1px solid #fff;
+    width: 170px;
+    color: white;
+    height: 32px;
+    line-height: 31px;
+    float: left;
+    border: 1px solid #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 30px;
+    transition-duration: 1s;
+
+
+}
+ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    top: 9px;
+    transform: scaley(0);
+    transform-origin: top;
+    transition: 0.5s;
+    position: relative;
+    
+}
+.nav{
+    margin-left: 344px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li:hover{
+    background-color: tomato;
+}
+.nav ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaley(1);
+}
+#web{
+    padding-bottom: 32px;
+}
+/* header end */
+/* form start */
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 90px;
+    margin-top: 21px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+.form1 input{
+    padding: 5px 50px ;
+    border-color:yellowgreen ;
+    border-radius: 50px;
+}
+.form1 .btn{
+    font-weight: bold;
+    background-color: lightcoral;
+    box-shadow: 1px 1px 3px 0px black;
+    cursor: pointer;
+}
+
+
+/* form end */
+/* footer start */
+img{
+    width: 40px;
+    margin-left: 14px;
+    position: relative;
+    top: -7px;
+    padding: 5px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgb(29, 27, 27);
+    width: 100%;
+    color: white;
+}
+.name h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.text p{
+    width: 690px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -19px;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    /* line-height: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+/* footer end */
+
